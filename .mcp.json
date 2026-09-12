@@ -1,0 +1,8 @@
+﻿{
+  "mcpServers": {
+    "tokengraph": {
+      "command": "uvx",
+      "args": ["tokengraph", "serve"]
+    }
+  }
+}

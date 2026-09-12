@@ -1,0 +1,4 @@
+﻿repo,query,expected,rank,reciprocal_rank
+nextjs,GraphStore nodes,tokengraph/graph.py::GraphStore,1,1.0
+nextjs,parse AST,tokengraph/parser.py::CodeParser,0,0.0
+nextjs,full build,tokengraph/incremental.py::full_build,1,1.0

@@ -1,0 +1,21 @@
+﻿{
+  "name": "tokengraph",
+  "owner": {
+    "name": "Hetansh Modh",
+    "email": "hetanshmodh.7722@gmail.com"
+  },
+  "metadata": {
+    "description": "Persistent incremental knowledge graph for token-efficient, context-aware code reviews with Claude Code",
+    "version": "2.0.0"
+  },
+  "plugins": [
+    {
+      "name": "tokengraph",
+      "source": "./",
+      "description": "Persistent incremental knowledge graph for token-efficient, context-aware code reviews with Claude Code",
+      "version": "2.0.0",
+      "category": "development",
+      "keywords": ["code-review", "knowledge-graph", "incremental", "tree-sitter", "mcp", "claude-code"]
+    }
+  ]
+}
