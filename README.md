@@ -1,8 +1,8 @@
-<h1 align="center">tokengraph</h1>
+<h1 align="center">Tokengraph</h1>
 
 <p align="center"><b>Stop burning tokens. Start reviewing smarter.</b></p>
 
-`tokengraph` builds a structural map of your codebase using Tree-sitter, tracks changes incrementally, and gives your AI coding assistant precise, targeted context — so it reads only what actually matters instead of re-scanning your entire project on every task.
+`Tokengraph` builds a structural map of your codebase using Tree-sitter, tracks changes incrementally, and gives your AI coding assistant precise, targeted context — so it reads only what actually matters instead of re-scanning your entire project on every task.
 
 Inspired by graph-based approaches to LLM context optimization.
 
@@ -12,7 +12,7 @@ Inspired by graph-based approaches to LLM context optimization.
 
 AI coding assistants often re-read large parts of a codebase to understand context for a single change. This is slow and expensive.
 
-`tokengraph` fixes that by pre-computing a structural graph of your code — functions, classes, imports, and their relationships — so relevant context can be pulled instantly instead of reconstructed from scratch every time.
+`Tokengraph` fixes that by pre-computing a structural graph of your code — functions, classes, imports, and their relationships — so relevant context can be pulled instantly instead of reconstructed from scratch every time.
 
 ---
 
