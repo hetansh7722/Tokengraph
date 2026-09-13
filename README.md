@@ -16,6 +16,9 @@ AI coding assistants often re-read large parts of a codebase to understand conte
 
 ---
 
+<img width="2000" height="1240" alt="image" src="https://github.com/user-attachments/assets/6fcd92b9-c277-4c76-b68f-491d4e1ab933" />
+
+
 ## How It Works
 
 1. **Parse** — Your repository is parsed into an AST using Tree-sitter
@@ -24,6 +27,7 @@ AI coding assistants often re-read large parts of a codebase to understand conte
 4. **Minimal context** — Your AI assistant reads only the relevant slice of the codebase via MCP tools, instead of scanning everything
 
 <img width="2600" height="1700" alt="image" src="https://github.com/user-attachments/assets/5eb3261a-6ac4-4c06-947a-51a7a145b8e1" />
+<img width="2000" height="1400" alt="image" src="https://github.com/user-attachments/assets/c7b9d6d4-19ff-4226-8dc1-0e4d6a521245" />
 
 
 ## Quick Start
