@@ -1,4 +1,4 @@
-﻿import * as vscode from 'vscode';
+import * as vscode from 'vscode';
 import { SqliteReader } from '../backend/sqlite';
 import { BlastRadiusTreeProvider } from '../views/treeView';
 import { resolveNodeAtCursor } from './cursorResolver';

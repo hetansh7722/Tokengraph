@@ -1,4 +1,4 @@
-﻿"""Tree-sitter based multi-language code parser.
+"""Tree-sitter based multi-language code parser.
 
 Extracts structural nodes (classes, functions, imports, types) and edges
 (calls, inheritance, contains) from source files.

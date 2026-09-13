@@ -1,4 +1,4 @@
-﻿"""Flow completeness benchmark: evaluates entry point detection and flow tracing."""
+"""Flow completeness benchmark: evaluates entry point detection and flow tracing."""
 
 from __future__ import annotations
 

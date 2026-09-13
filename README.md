@@ -1,4 +1,4 @@
-﻿<h1 align="center">tokengraph</h1>
+<h1 align="center">tokengraph</h1>
 
 <p align="center">
   <strong>Stop burning tokens. Start reviewing smarter.</strong>

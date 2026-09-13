@@ -1,4 +1,4 @@
-﻿"""Fixture with multiple calls to the same function from one caller."""
+"""Fixture with multiple calls to the same function from one caller."""
 
 
 async def _internal_request(url: str, data: bytes) -> dict:

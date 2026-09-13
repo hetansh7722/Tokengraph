@@ -1,4 +1,4 @@
-﻿/**
+/**
  * SCM file decoration provider.
  *
  * Adds badges to files in the Explorer and SCM views:

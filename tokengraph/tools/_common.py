@@ -1,4 +1,4 @@
-﻿"""Shared utilities for tool sub-modules."""
+"""Shared utilities for tool sub-modules."""
 
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-﻿"""Tests for the Tree-sitter parser module."""
+"""Tests for the Tree-sitter parser module."""
 
 from pathlib import Path
 

@@ -1,4 +1,4 @@
-﻿"""Tests for community/cluster detection."""
+"""Tests for community/cluster detection."""
 
 import tempfile
 from pathlib import Path

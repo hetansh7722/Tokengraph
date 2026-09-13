@@ -1,4 +1,4 @@
-﻿"""Tests for the incremental graph update module."""
+"""Tests for the incremental graph update module."""
 
 import subprocess
 from unittest.mock import MagicMock, patch

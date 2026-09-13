@@ -1,4 +1,4 @@
-﻿"""Tests for the hybrid search engine."""
+"""Tests for the hybrid search engine."""
 
 import tempfile
 from pathlib import Path

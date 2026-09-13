@@ -1,4 +1,4 @@
-﻿"""Execution flow detection, tracing, and criticality scoring.
+"""Execution flow detection, tracing, and criticality scoring.
 
 Detects entry points in the codebase (functions with no incoming CALLS edges,
 framework-decorated handlers, and conventional name patterns), traces execution

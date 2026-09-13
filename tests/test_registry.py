@@ -1,4 +1,4 @@
-﻿"""Tests for multi-repo registry and connection pool."""
+"""Tests for multi-repo registry and connection pool."""
 
 import sqlite3
 import tempfile

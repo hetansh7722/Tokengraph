@@ -1,4 +1,4 @@
-﻿"""Shared constants for tokengraph."""
+"""Shared constants for tokengraph."""
 
 from __future__ import annotations
 

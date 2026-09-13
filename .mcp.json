@@ -1,4 +1,4 @@
-﻿{
+{
   "mcpServers": {
     "tokengraph": {
       "command": "uvx",

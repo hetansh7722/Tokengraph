@@ -1,4 +1,4 @@
-﻿"""Tests for the schema migration framework."""
+"""Tests for the schema migration framework."""
 
 import sqlite3
 import tempfile

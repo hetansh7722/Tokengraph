@@ -1,4 +1,4 @@
-﻿"""Tools 21, 22: list_repos_func, cross_repo_search_func."""
+"""Tools 21, 22: list_repos_func, cross_repo_search_func."""
 
 from __future__ import annotations
 

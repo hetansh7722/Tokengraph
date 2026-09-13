@@ -1,4 +1,4 @@
-﻿## Explore Your Code
+## Explore Your Code
 
 Open the **Code Graph** panel in the activity bar to browse your codebase structure.
 

@@ -1,4 +1,4 @@
-﻿# Code Review Graph â€” User Guide
+# Code Review Graph â€” User Guide
 
 **Version:** v2.0.0 (Mar 26, 2026)
 

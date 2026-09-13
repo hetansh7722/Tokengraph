@@ -1,4 +1,4 @@
-﻿"""Evaluation framework for tokengraph.
+"""Evaluation framework for tokengraph.
 
 Provides scoring metrics (token efficiency, MRR, precision/recall),
 benchmark runners, and report generators for benchmarking graph-based code reviews.

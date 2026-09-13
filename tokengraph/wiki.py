@@ -1,4 +1,4 @@
-﻿"""Wiki generation from community structure.
+"""Wiki generation from community structure.
 
 Generates markdown pages for each detected community and an index page,
 providing a navigable documentation wiki for the codebase architecture.

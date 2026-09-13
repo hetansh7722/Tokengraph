@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Webview panel for the interactive graph visualization.
  * Uses D3.js (bundled via esbuild) to render a force-directed graph.
  *

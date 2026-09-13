@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # Checks for the tokengraph knowledge graph and outputs
 # guidance for Claude Code at the start of every session.
 

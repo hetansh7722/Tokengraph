@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Webview entry point for the D3.js force-directed graph visualization.
  * Runs in the browser context inside the VS Code webview panel.
  *

@@ -1,4 +1,4 @@
-﻿"""MCP prompt templates for Code Review Graph.
+"""MCP prompt templates for Code Review Graph.
 
 Provides 5 pre-built prompt workflows:
 1. review_changes   - pre-commit review using detect_changes + affected_flows + test gaps

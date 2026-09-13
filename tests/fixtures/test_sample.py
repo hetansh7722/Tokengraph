@@ -1,4 +1,4 @@
-﻿"""Tests for sample_python.py - used to verify TESTED_BY edge detection."""
+"""Tests for sample_python.py - used to verify TESTED_BY edge detection."""
 
 from tests.fixtures.sample_python import AuthService, process_request
 

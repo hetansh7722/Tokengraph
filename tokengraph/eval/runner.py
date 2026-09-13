@@ -1,4 +1,4 @@
-﻿"""Evaluation runner: orchestrates benchmark execution across repositories."""
+"""Evaluation runner: orchestrates benchmark execution across repositories."""
 
 from __future__ import annotations
 

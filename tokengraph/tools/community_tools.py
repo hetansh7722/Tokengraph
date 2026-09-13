@@ -1,4 +1,4 @@
-﻿"""Tools 13, 14, 15: community listing, detail, architecture overview."""
+"""Tools 13, 14, 15: community listing, detail, architecture overview."""
 
 from __future__ import annotations
 

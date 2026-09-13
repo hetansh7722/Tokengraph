@@ -1,1 +1,1 @@
-﻿"""Benchmark modules for the evaluation framework."""
+"""Benchmark modules for the evaluation framework."""

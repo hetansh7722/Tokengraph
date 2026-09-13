@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Quick search command with live filtering.
  *
  * Shows a QuickPick that queries the graph database as the user types,

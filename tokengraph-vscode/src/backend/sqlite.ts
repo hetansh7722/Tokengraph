@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Read-only SQLite reader for the tokengraph database.
  *
  * Opens the database created by the Python backend and provides typed

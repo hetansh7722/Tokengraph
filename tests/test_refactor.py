@@ -1,4 +1,4 @@
-﻿"""Tests for graph-powered refactoring operations."""
+"""Tests for graph-powered refactoring operations."""
 
 import tempfile
 import threading

@@ -1,4 +1,4 @@
-﻿# Code Review Graph for VS Code
+# Code Review Graph for VS Code
 
 Visualize code dependencies, blast radius, and review context from your code graph -- directly in VS Code.
 

@@ -1,10 +1,10 @@
-﻿[build-system]
+[build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
 name = "tokengraph"
-version = "2.0.0"
+version = "1.0.0"
 description = "Persistent incremental knowledge graph for token-efficient, context-aware code reviews with Claude Code"
 readme = {file = "README.md", content-type = "text/markdown"}
 license = "MIT"
@@ -103,10 +103,11 @@ select = ["E", "F", "I", "N", "W"]
 # B404: import subprocess (we need git interaction)
 # B603: subprocess without shell=True (we use list args, not shell)
 # B607: partial executable path (calling "git" by name is standard)
-# B608: SQL f-string â€” false positive, we use parameterized "?" placeholders on a local SQLite DB
+# B608: SQL f-string ?????????????????? false positive, we use parameterized "?" placeholders on a local SQLite DB
 skips = ["B101", "B404", "B603", "B607", "B608"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
 testpaths = ["tests"]
 norecursedirs = ["tests/fixtures"]
+

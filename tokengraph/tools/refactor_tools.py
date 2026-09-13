@@ -1,4 +1,4 @@
-﻿"""Tools 17, 18: refactor_func, apply_refactor_func."""
+"""Tools 17, 18: refactor_func, apply_refactor_func."""
 
 from __future__ import annotations
 

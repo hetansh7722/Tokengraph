@@ -1,4 +1,4 @@
-﻿"""Tests for graph visualization export."""
+"""Tests for graph visualization export."""
 
 import json
 

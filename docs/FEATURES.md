@@ -1,4 +1,4 @@
-﻿# Features
+# Features
 
 ## v2.0.0 (Current)
 - **22 MCP tools** (up from 9): 13 new tools for flows, communities, architecture, refactoring, wiki, multi-repo, and risk-scored change detection.

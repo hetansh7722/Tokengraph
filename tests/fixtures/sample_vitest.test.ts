@@ -1,4 +1,4 @@
-﻿import { UserRepository, UserService } from './sample_typescript';
+import { UserRepository, UserService } from './sample_typescript';
 
 describe('UserService', () => {
   it('should create a user', () => {

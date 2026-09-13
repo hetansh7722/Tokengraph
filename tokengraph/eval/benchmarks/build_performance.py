@@ -1,4 +1,4 @@
-﻿"""Build performance benchmark: measures timing of graph operations."""
+"""Build performance benchmark: measures timing of graph operations."""
 
 from __future__ import annotations
 

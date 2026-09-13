@@ -1,4 +1,4 @@
-﻿"""Tests for change impact analysis (changes.py)."""
+"""Tests for change impact analysis (changes.py)."""
 
 import tempfile
 from pathlib import Path

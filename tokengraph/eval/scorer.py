@@ -1,4 +1,4 @@
-﻿"""Scoring metrics for evaluating graph-based code review quality.
+"""Scoring metrics for evaluating graph-based code review quality.
 
 Provides:
 - Token efficiency: measures how many tokens the graph saves vs raw context.

@@ -1,4 +1,4 @@
-﻿"""Integration tests exercising git-dependent code with real temporary repos.
+"""Integration tests exercising git-dependent code with real temporary repos.
 
 Tests cover:
 - get_changed_files with real git history

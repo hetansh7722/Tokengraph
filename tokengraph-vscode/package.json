@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "tokengraph",
   "displayName": "Code Review Graph",
   "description": "Visualize code dependencies, blast radius, and review context from your tokengraph database directly in VS Code.",

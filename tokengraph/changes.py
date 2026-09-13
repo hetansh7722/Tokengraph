@@ -1,4 +1,4 @@
-﻿"""Change impact analysis for code review.
+"""Change impact analysis for code review.
 
 Maps git diffs to affected functions, flows, communities, and test coverage
 gaps. Produces risk-scored, priority-ordered review guidance.

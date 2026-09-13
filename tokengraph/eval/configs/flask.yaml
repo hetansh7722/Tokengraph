@@ -1,4 +1,4 @@
-﻿name: flask
+name: flask
 url: https://github.com/pallets/flask
 commit: HEAD
 language: python

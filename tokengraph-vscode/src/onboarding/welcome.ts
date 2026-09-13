@@ -1,4 +1,4 @@
-﻿import * as vscode from 'vscode';
+import * as vscode from 'vscode';
 import { Installer } from './installer';
 import { CliWrapper } from '../backend/cli';
 

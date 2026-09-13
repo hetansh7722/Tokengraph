@@ -1,4 +1,4 @@
-﻿"""Tests for skills and hooks auto-install."""
+"""Tests for skills and hooks auto-install."""
 
 import json
 from unittest.mock import patch

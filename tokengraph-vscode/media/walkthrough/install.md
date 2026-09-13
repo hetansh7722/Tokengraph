@@ -1,4 +1,4 @@
-﻿## Install the Backend
+## Install the Backend
 
 tokengraph needs a Python backend to parse your codebase.
 

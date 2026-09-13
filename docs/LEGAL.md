@@ -1,4 +1,4 @@
-﻿# Legal & Privacy
+# Legal & Privacy
 
 **License:** MIT (see [LICENSE](../LICENSE) in project root)
 

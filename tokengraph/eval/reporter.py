@@ -1,4 +1,4 @@
-﻿"""Markdown report generator for evaluation benchmark results.
+"""Markdown report generator for evaluation benchmark results.
 
 Takes a list of benchmark result dicts and produces a formatted markdown table
 suitable for inclusion in documentation or CI output.

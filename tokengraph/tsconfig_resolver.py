@@ -1,4 +1,4 @@
-﻿"""TypeScript tsconfig.json path alias resolver.
+"""TypeScript tsconfig.json path alias resolver.
 
 Resolves TypeScript path aliases (e.g., ``@/ -> src/``) declared in
 ``compilerOptions.paths`` so that ``IMPORTS_FROM`` edges can point to

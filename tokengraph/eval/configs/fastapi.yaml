@@ -1,4 +1,4 @@
-﻿name: fastapi
+name: fastapi
 url: https://github.com/tiangolo/fastapi
 commit: HEAD
 language: python

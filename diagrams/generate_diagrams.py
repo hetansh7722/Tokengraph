@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Generate 6 Excalidraw diagrams for tokengraph Medium article.
 
 All statistics match repo benchmarks exactly. No invented features or numbers.

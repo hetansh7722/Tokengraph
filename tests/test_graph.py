@@ -1,4 +1,4 @@
-﻿"""Tests for the graph storage and query engine."""
+"""Tests for the graph storage and query engine."""
 
 import tempfile
 from pathlib import Path

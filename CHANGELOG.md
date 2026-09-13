@@ -1,4 +1,4 @@
-﻿# Changelog
+# Changelog
 
 ## [1.8.4] - 2026-03-20
 

@@ -1,4 +1,4 @@
-﻿# Evaluation Report
+# Evaluation Report
 
 ## Methodology
 

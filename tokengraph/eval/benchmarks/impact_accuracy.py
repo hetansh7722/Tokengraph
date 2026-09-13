@@ -1,4 +1,4 @@
-﻿"""Impact accuracy benchmark: measures precision/recall of change impact analysis."""
+"""Impact accuracy benchmark: measures precision/recall of change impact analysis."""
 
 from __future__ import annotations
 

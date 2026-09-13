@@ -1,4 +1,4 @@
-﻿"""Tool 1: build_or_update_graph."""
+"""Tool 1: build_or_update_graph."""
 
 from __future__ import annotations
 

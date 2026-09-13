@@ -1,4 +1,4 @@
-﻿# Changelog
+# Changelog
 
 ## 0.2.0 â€” 2026-03-20
 

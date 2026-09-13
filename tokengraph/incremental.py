@@ -1,4 +1,4 @@
-﻿"""Incremental graph update logic.
+"""Incremental graph update logic.
 
 Detects changed files via git diff, re-parses only changed + impacted files,
 and updates the graph accordingly. Also supports CLI invocation for hooks.
@@ -117,8 +117,8 @@ def _load_ignore_patterns(repo_root: Path) -> list[str]:
 
 def _should_ignore(path: str, patterns: list[str]) -> bool:
     """Check if a path matches any ignore pattern."""
-    return any(fnmatch.fnmatch(path, p) for p in patterns)
-
+    normalized = path.replace("\\", "/")
+    return any(fnmatch.fnmatch(normalized, p) for p in patterns)
 
 def _is_binary(path: Path) -> bool:
     """Quick heuristic: check if file appears to be binary."""

@@ -1,4 +1,4 @@
-﻿"""Multi-repo registry and connection pool.
+"""Multi-repo registry and connection pool.
 
 Manages a registry of multiple repositories at ``~/.tokengraph/registry.json``
 and provides a connection pool for concurrent access to multiple graph databases.

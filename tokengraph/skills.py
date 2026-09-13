@@ -1,4 +1,4 @@
-﻿"""Claude Code skills and hooks auto-install.
+"""Claude Code skills and hooks auto-install.
 
 Generates Claude Code agent skill files, hooks configuration, and
 CLAUDE.md integration for seamless tokengraph usage.

@@ -1,4 +1,4 @@
-﻿"""Comprehensive end-to-end integration test for the v2 pipeline.
+"""Comprehensive end-to-end integration test for the v2 pipeline.
 
 Exercises: flows, communities, FTS search, analyze_changes,
 find_dead_code, rename_preview, generate_hints, review_changes_prompt,

@@ -1,4 +1,4 @@
-﻿## Build Your Graph
+## Build Your Graph
 
 Click the button above to parse your codebase and create a knowledge graph.
 

@@ -1,4 +1,4 @@
-﻿"""Tests for MCP prompt templates."""
+"""Tests for MCP prompt templates."""
 
 from tokengraph.prompts import (
     architecture_map_prompt,

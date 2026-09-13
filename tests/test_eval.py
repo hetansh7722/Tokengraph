@@ -1,4 +1,4 @@
-﻿"""Tests for the evaluation framework (scorer, reporter, runner, benchmarks)."""
+"""Tests for the evaluation framework (scorer, reporter, runner, benchmarks)."""
 
 import csv
 import os

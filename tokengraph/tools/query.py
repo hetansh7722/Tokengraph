@@ -1,4 +1,4 @@
-﻿"""Tools 2, 3, 5, 6, 9: query / search / stats helpers."""
+"""Tools 2, 3, 5, 6, 9: query / search / stats helpers."""
 
 from __future__ import annotations
 

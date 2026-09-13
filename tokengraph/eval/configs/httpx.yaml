@@ -1,4 +1,4 @@
-﻿name: httpx
+name: httpx
 url: https://github.com/encode/httpx
 commit: HEAD
 language: python

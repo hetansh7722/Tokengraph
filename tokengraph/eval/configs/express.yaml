@@ -1,4 +1,4 @@
-﻿name: express
+name: express
 url: https://github.com/expressjs/express
 commit: HEAD
 language: javascript

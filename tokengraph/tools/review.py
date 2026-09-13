@@ -1,4 +1,4 @@
-﻿"""Tools 4, 12, 16: review context, affected flows, detect changes."""
+"""Tools 4, 12, 16: review context, affected flows, detect changes."""
 
 from __future__ import annotations
 

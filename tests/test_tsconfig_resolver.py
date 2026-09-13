@@ -1,4 +1,4 @@
-﻿"""Tests for the TsconfigResolver class."""
+"""Tests for the TsconfigResolver class."""
 
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Tests for the SqliteReader module.
  *
  * Creates a temporary SQLite database with the exact schema used by the

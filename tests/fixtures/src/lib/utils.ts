@@ -1,3 +1,3 @@
-﻿export function cn(...args: string[]): string {
+export function cn(...args: string[]): string {
   return args.join(' ');
 }

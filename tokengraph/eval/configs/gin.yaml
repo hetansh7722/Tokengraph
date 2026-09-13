@@ -1,4 +1,4 @@
-﻿name: gin
+name: gin
 url: https://github.com/gin-gonic/gin
 commit: HEAD
 language: go

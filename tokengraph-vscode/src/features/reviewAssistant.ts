@@ -1,4 +1,4 @@
-﻿/**
+/**
  * SCM integration for code review.
  *
  * Detects staged and unstaged changes via git, computes the blast radius

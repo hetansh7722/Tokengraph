@@ -1,4 +1,4 @@
-﻿# Troubleshooting
+# Troubleshooting
 
 ## Database lock errors
 The graph uses SQLite with WAL mode. If you see lock errors:

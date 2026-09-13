@@ -1,4 +1,4 @@
-﻿"""Graph-powered refactoring operations.
+"""Graph-powered refactoring operations.
 
 Provides rename previews, dead code detection, refactoring suggestions,
 and safe application of refactoring edits to source files. All file writes

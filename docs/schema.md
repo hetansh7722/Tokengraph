@@ -1,4 +1,4 @@
-﻿# Knowledge Graph Schema
+# Knowledge Graph Schema
 
 ## Node Types
 

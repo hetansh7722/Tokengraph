@@ -1,4 +1,4 @@
-﻿"""Vector embedding support for semantic code search.
+"""Vector embedding support for semantic code search.
 
 Supports multiple providers:
 1. Local (sentence-transformers) - Private, fast, offline.

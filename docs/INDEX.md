@@ -1,4 +1,4 @@
-﻿# Documentation Index
+# Documentation Index
 
 - [USAGE.md](USAGE.md) -- How to install and use
 - [FEATURES.md](FEATURES.md) -- What's included, changelog

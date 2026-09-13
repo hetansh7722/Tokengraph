@@ -1,4 +1,4 @@
-﻿"""Tools 7, 8, 19, 20: embed_graph, get_docs_section, wiki tools."""
+"""Tools 7, 8, 19, 20: embed_graph, get_docs_section, wiki tools."""
 
 from __future__ import annotations
 

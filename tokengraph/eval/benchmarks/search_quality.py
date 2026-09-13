@@ -1,4 +1,4 @@
-﻿"""Search quality benchmark: measures search result ranking via MRR."""
+"""Search quality benchmark: measures search result ranking via MRR."""
 
 from __future__ import annotations
 

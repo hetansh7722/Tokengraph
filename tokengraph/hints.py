@@ -1,4 +1,4 @@
-﻿"""Context-aware hints system for MCP tool responses.
+"""Context-aware hints system for MCP tool responses.
 
 Tracks session state (in-memory only) and generates intelligent
 next-step suggestions after each tool call.  Hints are appended as

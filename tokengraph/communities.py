@@ -1,4 +1,4 @@
-﻿"""Community/cluster detection for the code knowledge graph.
+"""Community/cluster detection for the code knowledge graph.
 
 Detects communities of related code nodes using the Leiden algorithm (via igraph,
 optional) with a file-based grouping fallback when igraph is not installed.

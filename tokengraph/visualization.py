@@ -1,4 +1,4 @@
-﻿"""Interactive D3.js graph visualization for code knowledge graphs.
+"""Interactive D3.js graph visualization for code knowledge graphs.
 
 Exports graph data to JSON and generates a self-contained HTML file with
 a force-directed D3.js visualization. Dark theme, zoomable, draggable,

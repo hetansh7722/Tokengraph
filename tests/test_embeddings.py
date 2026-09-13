@@ -1,4 +1,4 @@
-﻿"""Tests for the embeddings module."""
+"""Tests for the embeddings module."""
 
 import json
 import os

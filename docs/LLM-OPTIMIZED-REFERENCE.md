@@ -1,4 +1,4 @@
-﻿# LLM-OPTIMIZED REFERENCE -- tokengraph v2.0.0
+# LLM-OPTIMIZED REFERENCE -- tokengraph v2.0.0
 
 Claude Code: Read ONLY the exact `<section>` you need. Never load the whole file.
 

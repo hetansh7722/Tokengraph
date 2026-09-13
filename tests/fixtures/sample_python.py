@@ -1,4 +1,4 @@
-﻿"""Sample Python file for testing the parser."""
+"""Sample Python file for testing the parser."""
 
 import os
 from pathlib import Path  # noqa: F401 â€” used by parser tests

@@ -1,4 +1,4 @@
-﻿"""Tests for wiki generation."""
+"""Tests for wiki generation."""
 
 import tempfile
 from pathlib import Path

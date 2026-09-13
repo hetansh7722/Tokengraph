@@ -1,4 +1,4 @@
-﻿"""Token efficiency benchmark: compares naive, standard, and graph-based token counts."""
+"""Token efficiency benchmark: compares naive, standard, and graph-based token counts."""
 
 from __future__ import annotations
 

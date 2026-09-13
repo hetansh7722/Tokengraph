@@ -1,4 +1,4 @@
-﻿"""CLI entry point for tokengraph.
+"""CLI entry point for tokengraph.
 
 Usage:
     tokengraph install

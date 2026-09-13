@@ -1,4 +1,4 @@
-﻿import * as vscode from 'vscode';
+import * as vscode from 'vscode';
 import { SqliteReader } from '../backend/sqlite';
 
 /** Number of milliseconds in one hour. */

@@ -1,4 +1,4 @@
-﻿"""Tests for MCP tool functions."""
+"""Tests for MCP tool functions."""
 
 import tempfile
 from pathlib import Path

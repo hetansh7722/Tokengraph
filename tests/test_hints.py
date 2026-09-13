@@ -1,4 +1,4 @@
-﻿"""Tests for the context-aware hints system."""
+"""Tests for the context-aware hints system."""
 
 from tokengraph.hints import (
     _MAX_PER_CATEGORY,

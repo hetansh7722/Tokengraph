@@ -1,4 +1,4 @@
-﻿"""Hybrid search engine combining FTS5 (BM25) and vector embeddings.
+"""Hybrid search engine combining FTS5 (BM25) and vector embeddings.
 
 Uses Reciprocal Rank Fusion (RRF) to merge results from full-text search
 and semantic similarity, with query-aware kind boosting and context-file

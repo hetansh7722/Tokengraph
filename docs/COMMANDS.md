@@ -1,4 +1,4 @@
-﻿# All Available Commands
+# All Available Commands
 
 ## Skills (Claude Code slash commands)
 

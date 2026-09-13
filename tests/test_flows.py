@@ -1,4 +1,4 @@
-﻿"""Tests for execution flow detection, tracing, and scoring."""
+"""Tests for execution flow detection, tracing, and scoring."""
 
 import tempfile
 from pathlib import Path
