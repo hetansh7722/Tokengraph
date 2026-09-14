@@ -13,7 +13,7 @@ import os
 import re
 import subprocess
 import time
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 from typing import Optional
 
 from .graph import GraphStore
@@ -24,9 +24,9 @@ logger = logging.getLogger(__name__)
 # Default ignore patterns (in addition to .gitignore)
 DEFAULT_IGNORE_PATTERNS = [
     ".tokengraph/**",
-    "node_modules/**",
-    ".git/**",
-    "__pycache__/**",
+    "**/node_modules/**",
+    "**/.git/**",
+    "**/__pycache__/**",
     "*.pyc",
     ".venv/**",
     "venv/**",
@@ -116,9 +116,38 @@ def _load_ignore_patterns(repo_root: Path) -> list[str]:
 
 
 def _should_ignore(path: str, patterns: list[str]) -> bool:
-    """Check if a path matches any ignore pattern."""
-    normalized = path.replace("\\", "/")
-    return any(fnmatch.fnmatch(normalized, p) for p in patterns)
+    """Check if a path matches any ignore pattern.
+
+    ``**/<dir>/**`` and unanchored single-directory patterns match at any
+    depth. A leading slash anchors a pattern to the repository root.
+    """
+    normalized = path.replace("\\", "/").lstrip("/")
+    parts = PurePosixPath(normalized).parts
+    for pattern in patterns:
+        anchored = pattern.startswith("/")
+        candidate = pattern[1:] if anchored else pattern
+
+        if candidate.startswith("**/") and candidate.endswith("/**"):
+            segment = candidate[3:-3]
+            if segment and segment in parts:
+                return True
+            continue
+
+        if candidate.endswith("/**"):
+            prefix = tuple(part for part in candidate[:-3].split("/") if part)
+            if not prefix:
+                continue
+            if anchored or len(prefix) > 1:
+                if parts[: len(prefix)] == prefix:
+                    return True
+            elif prefix[0] in parts:
+                return True
+            continue
+
+        if fnmatch.fnmatch(normalized, candidate):
+            return True
+    return False
+
 
 def _is_binary(path: Path) -> bool:
     """Quick heuristic: check if file appears to be binary."""

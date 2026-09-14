@@ -80,9 +80,9 @@ class TestGetDbPath:
 class TestIgnorePatterns:
     def test_default_patterns_loaded(self, tmp_path):
         patterns = _load_ignore_patterns(tmp_path)
-        assert "node_modules/**" in patterns
-        assert ".git/**" in patterns
-        assert "__pycache__/**" in patterns
+        assert "**/node_modules/**" in patterns
+        assert "**/.git/**" in patterns
+        assert "**/__pycache__/**" in patterns
 
     def test_custom_ignore_file(self, tmp_path):
         ignore = tmp_path / ".tokengraphignore"
