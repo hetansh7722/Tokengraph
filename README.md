@@ -1,6 +1,5 @@
 <h1 align="center">Tokengraph</h1>
-
-+ <p align="center">+   <a href="https://pypi.org/project/tokengraph/"><img src="https://img.shields.io/pypi/v/tokengraph.svg" alt="PyPI version"></a>+   <a href="https://pypi.org/project/tokengraph/"><img src="https://img.shields.io/pypi/pyversions/tokengraph.svg" alt="Python versions"></a>+   <a href="https://github.com/hetansh7722/Tokengraph/blob/main/LICENSE"><img src="https://img.shields.io/github/license/hetansh7722/Tokengraph.svg" alt="License"></a>+   <a href="https://github.com/hetansh7722/Tokengraph/stargazers"><img src="https://img.shields.io/github/stars/hetansh7722/Tokengraph.svg?style=social" alt="GitHub stars"></a>+ </p>
+<p align="center">+   <a href="https://pypi.org/project/tokengraph/"><img src="https://img.shields.io/pypi/v/tokengraph.svg" alt="PyPI version"></a>   <a href="https://pypi.org/project/tokengraph/"><img src="https://img.shields.io/pypi/pyversions/tokengraph.svg" alt="Python versions"></a>  <a href="https://github.com/hetansh7722/Tokengraph/blob/main/LICENSE"><img src="https://img.shields.io/github/license/hetansh7722/Tokengraph.svg" alt="License"></a>  <a href="https://github.com/hetansh7722/Tokengraph/stargazers"><img src="https://img.shields.io/github/stars/hetansh7722/Tokengraph.svg?style=social" alt="GitHub stars"></a> </p>
 
 <p align="center"><b>Stop burning tokens. Start reviewing smarter.</b></p>
 
