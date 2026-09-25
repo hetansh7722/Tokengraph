@@ -46,6 +46,39 @@ from .tools import (
 # transport with concurrent requests, replace with contextvars.ContextVar.
 _default_repo_root: str | None = None
 
+def _normalize_changed_files(value):
+    """Coerce ``changed_files`` into a real list[str] or None.
+
+    Some MCP clients occasionally serialize a list argument as a string
+    (e.g. "['a.py', 'b.py']" instead of a JSON array ["a.py", "b.py"]).
+    Rather than rejecting the call outright, try to recover the intended
+    list so a single malformed call doesn't force a fallback to grep.
+    """
+    if value is None or isinstance(value, list):
+        return value
+    if isinstance(value, str):
+        text = value.strip()
+        if not text:
+            return None
+        import json
+        try:
+            parsed = json.loads(text)
+        except (ValueError, TypeError):
+            parsed = None
+        if isinstance(parsed, list):
+            return [str(x) for x in parsed]
+        if parsed is None:
+            import ast
+            try:
+                parsed = ast.literal_eval(text)
+            except (ValueError, SyntaxError):
+                parsed = None
+        if isinstance(parsed, (list, tuple)):
+            return [str(x) for x in parsed]
+        return [text]
+    return value
+
+
 mcp = FastMCP(
     "tokengraph",
     instructions=(
@@ -80,7 +113,7 @@ def build_or_update_graph_tool(
 
 @mcp.tool()
 def get_impact_radius_tool(
-    changed_files: Optional[list[str]] = None,
+    changed_files: Optional[list[str] | str] = None,
     max_depth: int = 2,
     repo_root: Optional[str] = None,
     base: str = "HEAD~1",
@@ -96,6 +129,7 @@ def get_impact_radius_tool(
         repo_root: Repository root path. Auto-detected if omitted.
         base: Git ref for auto-detecting changes. Default: HEAD~1.
     """
+    changed_files = _normalize_changed_files(changed_files)
     return get_impact_radius(
         changed_files=changed_files, max_depth=max_depth,
         repo_root=repo_root, base=base,
@@ -130,7 +164,7 @@ def query_graph_tool(
 
 @mcp.tool()
 def get_review_context_tool(
-    changed_files: Optional[list[str]] = None,
+    changed_files: Optional[list[str] | str] = None,
     max_depth: int = 2,
     include_source: bool = True,
     max_lines_per_file: int = 200,
@@ -150,6 +184,7 @@ def get_review_context_tool(
         repo_root: Repository root path. Auto-detected if omitted.
         base: Git ref for change detection. Default: HEAD~1.
     """
+    changed_files = _normalize_changed_files(changed_files)
     return get_review_context(
         changed_files=changed_files, max_depth=max_depth,
         include_source=include_source, max_lines_per_file=max_lines_per_file,
@@ -318,7 +353,7 @@ def get_flow_tool(
 
 @mcp.tool()
 def get_affected_flows_tool(
-    changed_files: Optional[list[str]] = None,
+    changed_files: Optional[list[str] | str] = None,
     base: str = "HEAD~1",
     repo_root: Optional[str] = None,
 ) -> dict:
@@ -333,6 +368,7 @@ def get_affected_flows_tool(
         base: Git ref for auto-detecting changes. Default: HEAD~1.
         repo_root: Repository root path. Auto-detected if omitted.
     """
+    changed_files = _normalize_changed_files(changed_files)
     return get_affected_flows_func(
         changed_files=changed_files, base=base, repo_root=repo_root,
     )
@@ -406,7 +442,7 @@ def get_architecture_overview_tool(
 @mcp.tool()
 def detect_changes_tool(
     base: str = "HEAD~1",
-    changed_files: Optional[list[str]] = None,
+    changed_files: Optional[list[str] | str] = None,
     include_source: bool = False,
     max_depth: int = 2,
     repo_root: Optional[str] = None,
@@ -424,6 +460,7 @@ def detect_changes_tool(
         max_depth: Impact radius depth for BFS traversal. Default: 2.
         repo_root: Repository root path. Auto-detected if omitted.
     """
+    changed_files = _normalize_changed_files(changed_files)
     return detect_changes_func(
         base=base, changed_files=changed_files,
         include_source=include_source, max_depth=max_depth,

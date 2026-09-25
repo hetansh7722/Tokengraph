@@ -68,11 +68,11 @@ PLATFORMS: dict[str, dict[str, Any]] = {
     },
     "opencode": {
         "name": "OpenCode",
-        "config_path": lambda root: root / ".opencode.json",
-        "key": "mcpServers",
+        "config_path": lambda root: root / "opencode.json",
+        "key": "mcp",
         "detect": lambda: True,
         "format": "object",
-        "needs_type": True,
+        "needs_type": False,
     },
     "antigravity": {
         "name": "Antigravity",
@@ -87,14 +87,18 @@ PLATFORMS: dict[str, dict[str, Any]] = {
 
 def _build_server_entry(plat: dict[str, Any], key: str = "") -> dict[str, Any]:
     """Build the MCP server entry for a platform."""
+    if key == "opencode":
+        return {
+            "type": "local",
+            "command": ["tokengraph", "serve"],
+            "enabled": True,
+        }
     entry: dict[str, Any] = {
         "command": "uvx",
         "args": ["tokengraph", "serve"],
     }
     if plat["needs_type"]:
         entry["type"] = "stdio"
-    if key == "opencode":
-        entry["env"] = []
     return entry
 
 
