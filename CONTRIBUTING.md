@@ -6,7 +6,7 @@ Thank you for your interest in contributing! This guide will help you get starte
 
 ```bash
 # Clone the repository
-git clone https://github.com/hetansh7722/tokengraph.git
+git clone https://github.com/hetansh7722/Tokengraph.git
 cd tokengraph
 
 # Install with dev dependencies (requires uv)
@@ -79,7 +79,7 @@ tests/                 # Test suite
 
 ## Reporting Issues
 
-- Use GitHub Issues: https://github.com/hetansh7722/tokengraph/issues
+- Use GitHub Issues: https://github.com/hetansh7722/Tokengraph/issues
 - Include: Python version, OS, steps to reproduce, error output
 
 ## License
