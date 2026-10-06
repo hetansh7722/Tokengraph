@@ -40,7 +40,7 @@ tokengraph build       # parse your codebase
 Then ask your AI assistant:
 
 ```
-Build the code review graph for this project
+Build the tokengraph for this project
 ```
 
 To target a specific platform:
